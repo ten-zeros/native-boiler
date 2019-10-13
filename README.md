@@ -15,7 +15,11 @@ Clone this repository to your local machine
 
 Limitations:
 This App template has some limitations --
+
 > Bluetooth is not supported
+
 > Background push notifications & background audio
+
 > Apps are a minimum of 15mb (Android) || 20mb (iOS)
+
 > Built for Android 5.0+ || iOS10+
