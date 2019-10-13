@@ -9,8 +9,6 @@ Expo -- https://www.npmjs.com/package/expo
 React Native  -- https://facebook.github.io/react-native/
 Native Base -- https://docs.nativebase.io/ 
 
-_Built using:_
-
 *To Start*
 Clone this repository to your local machine
 
