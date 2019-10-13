@@ -1,16 +1,23 @@
 #React Native Boiler App
 -----------------------------------
-
-Built using:
-
-_Language_
-React Native  -- https://facebook.github.io/react-native/
-
-_Material Design Theme_
-Native Base -- https://docs.nativebase.io/ 
-
 Purpose:
 This is meant to be a template project for building React Native Apps
 
+Requirements:
+Built with Expo & NodeJS
+Expo -- https://www.npmjs.com/package/expo
+React Native  -- https://facebook.github.io/react-native/
+Native Base -- https://docs.nativebase.io/ 
+
+_Built using:_
+
 *To Start*
-> 
+Clone this repository to your local machine
+
+
+Limitations:
+This App template has some limitations --
+> Bluetooth is not supported
+> Background push notifications & background audio
+> Apps are a minimum of 15mb (Android) || 20mb (iOS)
+> Built for Android 5.0+ || iOS10+
