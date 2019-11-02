@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text } from 'react-native';
-import AuthView from './Views/AuthView';
+import LoginView from './Views/LoginView';
 
   
 export default class App extends Component {
@@ -13,7 +13,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <AuthView></AuthView>
+      <LoginView></LoginView>
     );
   }
 }
