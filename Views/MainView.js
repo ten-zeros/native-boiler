@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import { Top } from '../components/Top';
 import { Container, Content, Header, Footer, FooterTab, Body, Title, Button, View, Right, Icon, Card, CardItem} from 'native-base';
 
-import { Image, Text} from 'react-native';
+import { Image, Text } from 'react-native';
 
 
 export default class MainView extends Component {
@@ -13,7 +13,7 @@ export default class MainView extends Component {
             {/* <Top Title="Main View" /> */}
             <Header>
                 <Body>
-                    <Text style={{fontSize: 20, fontWeight: 'bold', textAlign: 'center'}}>Hello, World</Text>
+                    <Text style={{fontSize: 20, fontWeight: 'bold', textAlign: 'center'}}>Hello</Text>
                 </Body>
                 <Right>
                 <Icon name='cog' />
@@ -24,6 +24,10 @@ export default class MainView extends Component {
                     <Text style={{ textAlign:'center', fontSize: 50, fontWeight: 'bold'}}>
                         TRESOR
                     </Text>
+                    <Image 
+                        source={require('../images/xi.png')}
+                        
+                        />
                 </View>
             </Content>
                 <Footer>
