@@ -2,9 +2,9 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 27461,
-  "expoServerNgrokUrl": "https://fa-q3g.kamto.nativeapp.exp.direct",
-  "packagerNgrokUrl": "https://packager.fa-q3g.kamto.nativeapp.exp.direct",
-  "ngrokPid": 27485,
-  "webpackServerPort": null
+  "packagerPid": 14491,
+  "expoServerNgrokUrl": "https://es-pcu.kamto.nativeapp.exp.direct",
+  "packagerNgrokUrl": "https://packager.es-pcu.kamto.nativeapp.exp.direct",
+  "ngrokPid": 14518,
+  "webpackServerPort": 19006
 }
