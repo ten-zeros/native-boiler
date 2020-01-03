@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import { Top } from '../components/Top';
-import { Container, Content, Header, Footer, FooterTab, Body, Title, Button, View, Right, Icon, Card, CardItem} from 'native-base';
+import { Container, Content, Header, Body, Title, Button, View, Right, Icon, Card, CardItem} from 'native-base';
+import { NavBar } from '../components/NavBar';
 
 import { Image, Text } from 'react-native';
 
@@ -13,7 +14,7 @@ export default class MainView extends Component {
             {/* <Top Title="Main View" /> */}
             <Header>
                 <Body>
-                    <Text style={{fontSize: 20, fontWeight: 'bold', textAlign: 'center'}}>Hello</Text>
+                    <Text style={{fontSize: 20, fontWeight: 'bold', textAlign: 'center'}}>Welcome</Text>
                 </Body>
                 <Right>
                 <Icon name='cog' />
@@ -21,22 +22,24 @@ export default class MainView extends Component {
             </Header>
             <Content>
                 <View>
-                    <Text style={{ textAlign:'center', fontSize: 50, fontWeight: 'bold'}}>
-                        TRESOR
+                    <Text style={{ textAlign: 'center', fontSize: 70, fontWeight: 'bold' }}>
+                        Welcome to my first App.
                     </Text>
-                    <Image 
+                    {/* <Image 
                         source={require('../images/xi.png')}
-                        
-                        />
+                        style={{ width: '100%', height: '100%'}}
+                        /> */}
                 </View>
             </Content>
-                <Footer>
+                {/* <Footer>
                     <FooterTab>
                         <Button full primary onPress={() => {alert('Practice Makes Perfect!')}}>
-                            <Text>Click.Me</Text>
+                            <Text>Motivation</Text>
                         </Button>
                     </FooterTab>
-                </Footer>
+                </Footer> */}
+                <NavBar></NavBar>
+
         </Container>
         );
     }
