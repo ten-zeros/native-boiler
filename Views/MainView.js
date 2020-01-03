@@ -11,22 +11,12 @@ export default class MainView extends Component {
     render() {
         return (
             <Container>
-            {/* <Top Title="Main View" /> */}
-            {/* <Header>
-                <Body>
-                    <Text style={{fontSize: 20, fontWeight: 'bold', textAlign: 'center'}}>Welcome</Text>
-                </Body>
-                <Right>
-                <Icon name='cog' />
-                </Right>
-            </Header> */}
-
             <HeadBar />
             <Content>
                 <View>
                     <Image 
                         source={require('../images/xi.png')}
-                        style={{ width: '100%', height: '100%'}}
+                        style={{ width: 200, height: 200 }}
                         />
                 </View>
             </Content>

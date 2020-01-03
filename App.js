@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text } from 'react-native';
 import MainView from './Views/MainView';
+import LoginView from './Views/LoginView';
+
 
   
 export default class App extends Component {
@@ -12,9 +13,7 @@ export default class App extends Component {
   
 
   render() {
-    return (
-      <MainView />
-    );
+    return <MainView />;
   }
 }
 
