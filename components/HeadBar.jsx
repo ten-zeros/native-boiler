@@ -7,7 +7,9 @@ export function HeadBar(props)
     return (
         <Header>
             <Left>
-                <Icon name="arrow-back" />
+                <Button transparent onPress={ () => { this.props.navigation.goBack()}}>
+                    <Icon name="arrow-back" />
+                </Button>
             </Left>
 
             <Body>
