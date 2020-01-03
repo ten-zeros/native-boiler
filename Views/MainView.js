@@ -24,9 +24,6 @@ export default class MainView extends Component {
             <HeadBar />
             <Content>
                 <View>
-                    {/* <Text style={{ textAlign: 'center', fontSize: 70, fontWeight: 'bold' }}>
-                        Welcome to my first App.
-                    </Text> */}
                     <Image 
                         source={require('../images/xi.png')}
                         style={{ width: '100%', height: '100%'}}
