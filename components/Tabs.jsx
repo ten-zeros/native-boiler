@@ -1,19 +1,35 @@
 import React, { Component } from 'react';
 import { Tabs, Tab } from 'native-base';
+import Tresor from './Tresor';
+import ToDoList from './ToDoList';
 
-export default class Tabs extends Component 
+class MainTabs extends Component 
 {
     render() 
     {
         return (
             <Tabs>
-                <Tab heading={this.props.Tab1} >
-
+                <Tab heading={"Logo"} >
+                    <Tresor />
                 </Tab>
-                <Tab heading={this.props.Tab2}>
-
+                <Tab heading={"To Do"}>
+                    <ToDoList />
+                </Tab>
+                <Tab heading={"etc"}>
+                    
                 </Tab>
             </Tabs>
         )
     }
 }
+
+// MainTabs.defaultProps = {
+//     Tab1Title: "Logo",
+//     Tab1: <Tresor />,
+//     Tab2Title: "To Do",
+//     Tab2: <ToDoList />,
+//     Tab3Title: "etc",
+//     Tab3: "Hello!"
+// }
+
+export default MainTabs
