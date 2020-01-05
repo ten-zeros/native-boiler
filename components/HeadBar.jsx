@@ -13,7 +13,7 @@ export function HeadBar(props)
             </Left>
 
             <Body>
-                <Text style={{fontSize: 20, fontWeight: 'bold', textAlign: 'center'}}> Welcome</Text>
+                <Text style={{fontSize: 20, fontWeight: 'bold', textAlign: 'center'}}> Tresor LLC</Text>
             </Body>
 
             <Right>

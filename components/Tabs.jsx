@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Tabs, Tab } from 'native-base';
+import { Tabs, Tab, View, Text } from 'native-base';
+
 import Tresor from './Tresor';
 import ToDoList from './ToDoList';
 
@@ -9,14 +10,20 @@ class MainTabs extends Component
     {
         return (
             <Tabs>
-                <Tab heading={"Logo"} >
-                    <Tresor />
+                <Tab heading="Who We Are" >
+                    <Text>
+                        We're tinkerers and creators committed to solving technology problems.
+                    </Text>
                 </Tab>
-                <Tab heading={"To Do"}>
-                    <ToDoList />
+                <Tab heading="What We Do">
+                    <Text>
+                        We build software - from websites to mobile apps, and everything inbetween.
+                    </Text>
                 </Tab>
-                <Tab heading={"etc"}>
-                    
+                <Tab heading="Why we exist">
+                    <Text>
+                        We Believe in a world where complex things are made simple.
+                    </Text>
                 </Tab>
             </Tabs>
         )
